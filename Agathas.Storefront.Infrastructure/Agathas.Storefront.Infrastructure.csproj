@@ -94,6 +94,8 @@
     <Compile Include="CookieStorage\CookieStorageService.cs" />
     <Compile Include="CookieStorage\ICookieStorageService.cs" />
     <Compile Include="Domain\BusinessRule.cs" />
+    <Compile Include="Domain\EFRepository\IEFReadOnlyRepository.cs" />
+    <Compile Include="Domain\EFRepository\IEFRepository.cs" />
     <Compile Include="Domain\EntityBase.cs" />
     <Compile Include="Domain\Events\DomainEvents.cs" />
     <Compile Include="Domain\Events\IDomainEventHandler.cs" />
@@ -102,14 +104,17 @@
     <Compile Include="Domain\Events\StructureMapDomainEventHandlerFactory.cs" />
     <Compile Include="Domain\IAggregateRoot.cs" />
     <Compile Include="Domain\Events\IDomainEvent.cs" />
-    <Compile Include="Domain\IReadOnlyRepository.cs" />
-    <Compile Include="Domain\IRepository.cs" />
+    <Compile Include="Domain\NHRepository\INHReadOnlyRepository.cs" />
+    <Compile Include="Domain\NHRepository\INHRepository.cs" />
     <Compile Include="Domain\ValueObjectBase.cs" />
     <Compile Include="Domain\ValueObjectIsInvalidException.cs" />
     <Compile Include="Email\EmailServiceFactory.cs" />
     <Compile Include="Email\IEmailService.cs" />
     <Compile Include="Email\SMTPService.cs" />
     <Compile Include="Email\TextLoggingEmailService.cs" />
+    <Compile Include="Extensions\ExpressionExtension.cs" />
+    <Compile Include="Extensions\ExpressionVisitor.cs" />
+    <Compile Include="Extensions\ParameterRebinder.cs" />
     <Compile Include="Helpers\PriceHelper.cs" />
     <Compile Include="Helpers\UrlHelper.cs" />
     <Compile Include="Logging\ILogger.cs" />
@@ -128,6 +133,11 @@
     <Compile Include="Querying\PropertyNameHelper.cs" />
     <Compile Include="Querying\Query.cs" />
     <Compile Include="Querying\QueryOperator.cs" />
+    <Compile Include="Specification\AndSpecification.cs" />
+    <Compile Include="Specification\CompositeSpecification.cs" />
+    <Compile Include="Specification\ISpecification.cs" />
+    <Compile Include="Specification\OrSpecification.cs" />
+    <Compile Include="Specification\Specification.cs" />
     <Compile Include="UnitOfWork\IUnitOfWork.cs" />
     <Compile Include="UnitOfWork\IUnitOfWorkRepository.cs" />
   </ItemGroup>
