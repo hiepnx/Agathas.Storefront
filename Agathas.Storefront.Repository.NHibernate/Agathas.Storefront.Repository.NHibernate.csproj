@@ -10,7 +10,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Agathas.Storefront.Repository.NHibernate</RootNamespace>
     <AssemblyName>Agathas.Storefront.Repository.NHibernate</AssemblyName>
-    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <FileUpgradeFlags>
     </FileUpgradeFlags>
@@ -32,6 +32,7 @@
     <IsWebBootstrapper>false</IsWebBootstrapper>
     <UseApplicationTrust>false</UseApplicationTrust>
     <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -106,16 +107,6 @@
     <Compile Include="SessionStorage\ThreadSessionStorageContainer.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Agathas.Storefront.Infrastructure\Agathas.Storefront.Infrastructure.csproj">
-      <Project>{963F04CC-724D-435B-987E-8B92F7741B75}</Project>
-      <Name>Agathas.Storefront.Infrastructure</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Agathas.Storefront.Model\Agathas.Storefront.Model.csproj">
-      <Project>{A909922F-F7DA-4EE6-9B36-04E3B3CA1360}</Project>
-      <Name>Agathas.Storefront.Model</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <EmbeddedResource Include="Mapping\Brand.hbm.xml" />
   </ItemGroup>
   <ItemGroup>
@@ -179,6 +170,16 @@
       <ProductName>Windows Installer 3.1</ProductName>
       <Install>true</Install>
     </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Agathas.Storefront.Infrastructure\Agathas.Storefront.Infrastructure.csproj">
+      <Project>{963f04cc-724d-435b-987e-8b92f7741b75}</Project>
+      <Name>Agathas.Storefront.Infrastructure</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Agathas.Storefront.Model\Agathas.Storefront.Model.csproj">
+      <Project>{a909922f-f7da-4ee6-9b36-04e3b3ca1360}</Project>
+      <Name>Agathas.Storefront.Model</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -171,3 +171,25 @@ D:\Sourcecode\Agathas.Storefront - VS 2010\Agathas.Storefront.UI.Web.MVC\bin\Aga
 D:\Sourcecode\Agathas.Storefront - VS 2010\Agathas.Storefront.UI.Web.MVC\obj\Debug\Agathas.Storefront.UI.Web.MVC.csprojResolveAssemblyReference.cache
 D:\Sourcecode\Agathas.Storefront - VS 2010\Agathas.Storefront.UI.Web.MVC\obj\Debug\Agathas.Storefront.UI.Web.MVC.dll
 D:\Sourcecode\Agathas.Storefront - VS 2010\Agathas.Storefront.UI.Web.MVC\obj\Debug\Agathas.Storefront.UI.Web.MVC.pdb
+D:\GibHub\GibHub\Agathas.Storefront\Agathas.Storefront.UI.Web.MVC\bin\Agathas.Storefront.UI.Web.MVC.dll
+D:\GibHub\GibHub\Agathas.Storefront\Agathas.Storefront.UI.Web.MVC\bin\Agathas.Storefront.UI.Web.MVC.pdb
+D:\GibHub\GibHub\Agathas.Storefront\Agathas.Storefront.UI.Web.MVC\bin\Agathas.Storefront.Controllers.dll
+D:\GibHub\GibHub\Agathas.Storefront\Agathas.Storefront.UI.Web.MVC\bin\Agathas.Storefront.Infrastructure.dll
+D:\GibHub\GibHub\Agathas.Storefront\Agathas.Storefront.UI.Web.MVC\bin\Agathas.Storefront.Model.dll
+D:\GibHub\GibHub\Agathas.Storefront\Agathas.Storefront.UI.Web.MVC\bin\Agathas.Storefront.Repository.NHibernate.dll
+D:\GibHub\GibHub\Agathas.Storefront\Agathas.Storefront.UI.Web.MVC\bin\Agathas.Storefront.Services.Cache.dll
+D:\GibHub\GibHub\Agathas.Storefront\Agathas.Storefront.UI.Web.MVC\bin\Agathas.Storefront.Services.dll
+D:\GibHub\GibHub\Agathas.Storefront\Agathas.Storefront.UI.Web.MVC\bin\StructureMap.dll
+D:\GibHub\GibHub\Agathas.Storefront\Agathas.Storefront.UI.Web.MVC\bin\AutoMapper.dll
+D:\GibHub\GibHub\Agathas.Storefront\Agathas.Storefront.UI.Web.MVC\bin\log4net.dll
+D:\GibHub\GibHub\Agathas.Storefront\Agathas.Storefront.UI.Web.MVC\bin\NHibernate.dll
+D:\GibHub\GibHub\Agathas.Storefront\Agathas.Storefront.UI.Web.MVC\bin\Iesi.Collections.dll
+D:\GibHub\GibHub\Agathas.Storefront\Agathas.Storefront.UI.Web.MVC\bin\Agathas.Storefront.Controllers.pdb
+D:\GibHub\GibHub\Agathas.Storefront\Agathas.Storefront.UI.Web.MVC\bin\Agathas.Storefront.Infrastructure.pdb
+D:\GibHub\GibHub\Agathas.Storefront\Agathas.Storefront.UI.Web.MVC\bin\Agathas.Storefront.Model.pdb
+D:\GibHub\GibHub\Agathas.Storefront\Agathas.Storefront.UI.Web.MVC\bin\Agathas.Storefront.Repository.NHibernate.pdb
+D:\GibHub\GibHub\Agathas.Storefront\Agathas.Storefront.UI.Web.MVC\bin\Agathas.Storefront.Services.Cache.pdb
+D:\GibHub\GibHub\Agathas.Storefront\Agathas.Storefront.UI.Web.MVC\bin\Agathas.Storefront.Services.pdb
+D:\GibHub\GibHub\Agathas.Storefront\Agathas.Storefront.UI.Web.MVC\obj\Debug\Agathas.Storefront.UI.Web.MVC.csprojResolveAssemblyReference.cache
+D:\GibHub\GibHub\Agathas.Storefront\Agathas.Storefront.UI.Web.MVC\obj\Debug\Agathas.Storefront.UI.Web.MVC.dll
+D:\GibHub\GibHub\Agathas.Storefront\Agathas.Storefront.UI.Web.MVC\obj\Debug\Agathas.Storefront.UI.Web.MVC.pdb

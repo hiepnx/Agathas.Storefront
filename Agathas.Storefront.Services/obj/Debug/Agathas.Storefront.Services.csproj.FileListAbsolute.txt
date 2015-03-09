@@ -77,3 +77,15 @@ D:\Books\ProfessionalASPDesignPattern\ASPPatterns.Chap14\Agathas.Storefront - VS
 D:\Books\ProfessionalASPDesignPattern\ASPPatterns.Chap14\Agathas.Storefront - VS 2010\Agathas.Storefront.Services\obj\Debug\Agathas.Storefront.Services.csprojResolveAssemblyReference.cache
 D:\Books\ProfessionalASPDesignPattern\ASPPatterns.Chap14\Agathas.Storefront - VS 2010\Agathas.Storefront.Services\obj\Debug\Agathas.Storefront.Services.dll
 D:\Books\ProfessionalASPDesignPattern\ASPPatterns.Chap14\Agathas.Storefront - VS 2010\Agathas.Storefront.Services\obj\Debug\Agathas.Storefront.Services.pdb
+D:\GibHub\GibHub\Agathas.Storefront\Agathas.Storefront.Services\bin\Debug\Agathas.Storefront.Services.dll
+D:\GibHub\GibHub\Agathas.Storefront\Agathas.Storefront.Services\bin\Debug\Agathas.Storefront.Services.pdb
+D:\GibHub\GibHub\Agathas.Storefront\Agathas.Storefront.Services\bin\Debug\Agathas.Storefront.Infrastructure.dll
+D:\GibHub\GibHub\Agathas.Storefront\Agathas.Storefront.Services\bin\Debug\Agathas.Storefront.Model.dll
+D:\GibHub\GibHub\Agathas.Storefront\Agathas.Storefront.Services\bin\Debug\AutoMapper.dll
+D:\GibHub\GibHub\Agathas.Storefront\Agathas.Storefront.Services\bin\Debug\log4net.dll
+D:\GibHub\GibHub\Agathas.Storefront\Agathas.Storefront.Services\bin\Debug\StructureMap.dll
+D:\GibHub\GibHub\Agathas.Storefront\Agathas.Storefront.Services\bin\Debug\Agathas.Storefront.Infrastructure.pdb
+D:\GibHub\GibHub\Agathas.Storefront\Agathas.Storefront.Services\bin\Debug\Agathas.Storefront.Model.pdb
+D:\GibHub\GibHub\Agathas.Storefront\Agathas.Storefront.Services\obj\Debug\Agathas.Storefront.Services.csprojResolveAssemblyReference.cache
+D:\GibHub\GibHub\Agathas.Storefront\Agathas.Storefront.Services\obj\Debug\Agathas.Storefront.Services.dll
+D:\GibHub\GibHub\Agathas.Storefront\Agathas.Storefront.Services\obj\Debug\Agathas.Storefront.Services.pdb

@@ -6,6 +6,7 @@ using Agathas.Storefront.Model.Products;
 using Agathas.Storefront.Services.Interfaces;
 using Agathas.Storefront.Services.Mapping;
 using Agathas.Storefront.Services.Messaging.ProductCatalogService;
+using Agathas.Storefront.Services.ViewModels;
 
 namespace Agathas.Storefront.Services.Implementations
 {
@@ -50,7 +51,7 @@ namespace Agathas.Storefront.Services.Implementations
             productQuery.OrderByProperty = new OrderByClause() { Desc = true, PropertyName = PropertyNameHelper.ResolvePropertyName<ProductTitle>(pt => pt.Price) };
 
             response.Products = _productTitleRepository.FindBy(productQuery, 0, 6).ConvertToProductViews();
-
+           // response.Products = new List<ProductSummaryView>();
             return response;
         }
 
