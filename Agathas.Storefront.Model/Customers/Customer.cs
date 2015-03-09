@@ -12,7 +12,7 @@ namespace Agathas.Storefront.Model.Customers
         private IList<DeliveryAddress> _deliveryAddressBook =
                                                 new List<DeliveryAddress>();
       
-        public string IdentityToken { get; set; }
+        public string AuthenticationToken { get; set; }
         public string FirstName { get; set; }
         public string SecondName { get; set; }
         public string Email { get; set; }
@@ -57,7 +57,7 @@ namespace Agathas.Storefront.Model.Customers
             if (!new EmailValidationSpecification().IsSatisfiedBy(Email))
                 base.AddBrokenRule(CustomerBusinessRules.EmailRequired);
 
-            if (String.IsNullOrEmpty(IdentityToken))
+            if (String.IsNullOrEmpty(AuthenticationToken))
                 base.AddBrokenRule(CustomerBusinessRules.IdentityTokenRequired);
         }
     }

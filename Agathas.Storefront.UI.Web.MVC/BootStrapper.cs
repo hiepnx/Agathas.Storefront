@@ -19,6 +19,9 @@ using Agathas.Storefront.Services.Interfaces;
 using StructureMap;
 using StructureMap.Configuration.DSL;
 using Agathas.Storefront.Infrastructure.Email;
+using Agathas.Storefront.Repository.EntityFramework.Repository;
+using Agathas.Storefront.Repository.EntityFramework.UnitOfWork;
+using Agathas.Storefront.Infrastructure.Domain;
 
 namespace Agathas.Storefront.UI.Web.MVC
 {
@@ -39,22 +42,22 @@ namespace Agathas.Storefront.UI.Web.MVC
             {
                 // Repositories 
                 ForRequestedType<IOrderRepository>().TheDefault.Is.OfConcreteType
-                         <Repository.NHibernate.Repositories.OrderRepository>();
+                         <OrderRepository>();
                 ForRequestedType<ICustomerRepository>().TheDefault.Is.OfConcreteType
-                         <Repository.NHibernate.Repositories.CustomerRepository>();
+                         <CustomerRepository>();
                 ForRequestedType<IBasketRepository>().TheDefault.Is.OfConcreteType
-                         <Repository.NHibernate.Repositories.BasketRepository>();
+                         <BasketRepository>();
                 ForRequestedType<IDeliveryOptionRepository>().TheDefault.Is.OfConcreteType
-                          <Repository.NHibernate.Repositories.DeliveryOptionRepository>();
+                          <DeliveryOptionRepository>();
                
                 ForRequestedType<ICategoryRepository>().TheDefault.Is.OfConcreteType
-                         <Repository.NHibernate.Repositories.CategoryRepository>();
+                         <CategoryRepository>();
                 ForRequestedType<IProductTitleRepository>().TheDefault.Is.OfConcreteType
-                         <Repository.NHibernate.Repositories.ProductTitleRepository>();
+                         <ProductTitleRepository>();
                 ForRequestedType<IProductRepository>().TheDefault.Is.OfConcreteType
-                         <Repository.NHibernate.Repositories.ProductRepository>();
-                ForRequestedType<IUnitOfWork>().TheDefault.Is.OfConcreteType
-                         <Repository.NHibernate.NHUnitOfWork>();
+                         <ProductRepository>();
+                ForRequestedType<IEFUnitOfWork>().TheDefault.Is.OfConcreteType
+                         <EFUnitOfWork>();
 
                 // Order Service
                 ForRequestedType<IOrderService>().TheDefault.Is.OfConcreteType
