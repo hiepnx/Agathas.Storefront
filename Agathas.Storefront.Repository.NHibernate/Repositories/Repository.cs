@@ -5,6 +5,10 @@ using Agathas.Storefront.Infrastructure.Querying;
 using Agathas.Storefront.Infrastructure.UnitOfWork;
 using Agathas.Storefront.Repository.NHibernate.SessionStorage;
 using NHibernate;
+using Agathas.Storefront.Infrastructure.Specification;
+using System.Linq.Expressions;
+using System.Linq;
+using System.Data.SqlClient;
 
 namespace Agathas.Storefront.Repository.NHibernate.Repositories
 {
@@ -82,6 +86,110 @@ namespace Agathas.Storefront.Repository.NHibernate.Repositories
         {
 
         }
+
+     #region implemented by EF
+        #region implemented by EntityFramework
+
+        public T GetByKey(object keyValue)
+        {
+            throw new NotImplementedException("implemented by EF");
+        }
+
+        public IQueryable<T> GetQuery()
+        {
+            throw new NotImplementedException("implemented by EF");
+        }
+
+        public IQueryable<T> GetQuery(Expression<Func<T, bool>> predicate)
+        {
+            throw new NotImplementedException("implemented by EF");
+        }
+
+        public IQueryable<T> GetQuery(ISpecification<T> criteria)
+        {
+            throw new NotImplementedException("implemented by EF");
+        }
+
+        public T Single(Expression<Func<T, bool>> criteria)
+        {
+            throw new NotImplementedException("implemented by EF");
+        }
+
+        public T Single(ISpecification<T> criteria)
+        {
+            throw new NotImplementedException("implemented by EF");
+        }
+
+        public T First(Expression<Func<T, bool>> predicate)
+        {
+            throw new NotImplementedException("implemented by EF");
+        }
+
+        public T First(ISpecification<T> criteria)
+        {
+            throw new NotImplementedException("implemented by EF");
+        }
+
+        public IEnumerable<T> Find(ISpecification<T> criteria) 
+        {
+            throw new NotImplementedException("implemented by EF");
+        }
+
+        public IEnumerable<T> Find(Expression<Func<T, bool>> criteria)
+        {
+            throw new NotImplementedException("implemented by EF");
+        }
+
+        public T FindOne(ISpecification<T> criteria)
+        {
+            throw new NotImplementedException("implemented by EF");
+        }
+
+        public T FindOne(Expression<Func<T, bool>> criteria)
+        {
+            throw new NotImplementedException("implemented by EF");
+        }
+
+        public IEnumerable<T> Get<TOrderBy>(Expression<Func<T, TOrderBy>> orderBy, int pageIndex, int pageSize, SortOrder sortOrder = SortOrder.Ascending)
+        {
+            throw new NotImplementedException("implemented by EF");
+        }
+
+        public IEnumerable<T> Get<TOrderBy>(Expression<Func<T, bool>> criteria, Expression<Func<T, TOrderBy>> orderBy, int pageIndex, int pageSize, SortOrder sortOrder = SortOrder.Ascending)
+        {
+            throw new NotImplementedException("implemented by EF");
+        }
+
+        public IEnumerable<T> Get<TOrderBy>(ISpecification<T> specification, Expression<Func<T, TOrderBy>> orderBy, int pageIndex, int pageSize, SortOrder sortOrder = SortOrder.Ascending)
+        {
+            throw new NotImplementedException("implemented by EF");
+        }
+
+        public int Count()
+        {
+            throw new NotImplementedException("implemented by EF");
+        }
+
+        public int Count(Expression<Func<T, bool>> criteria)
+        {
+            throw new NotImplementedException("implemented by EF");
+        }
+
+        public int Count(ISpecification<T> criteria)
+        {
+            throw new NotImplementedException("implemented by EF");
+        }
+        public IUnitOfWork UnitOfWork
+        {
+            get
+            {
+                return _uow;
+            }
+        }
+        
+        #endregion
+#endregion
+
     }
 
 }

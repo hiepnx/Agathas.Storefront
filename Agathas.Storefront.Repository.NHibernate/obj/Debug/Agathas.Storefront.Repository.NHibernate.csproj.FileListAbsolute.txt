@@ -114,3 +114,18 @@ D:\Sourcecode\Agathas.Storefront - VS 2010\Agathas.Storefront.Repository.NHibern
 D:\Sourcecode\Agathas.Storefront - VS 2010\Agathas.Storefront.Repository.NHibernate\obj\Debug\Agathas.Storefront.Repository.NHibernate.csprojResolveAssemblyReference.cache
 D:\Sourcecode\Agathas.Storefront - VS 2010\Agathas.Storefront.Repository.NHibernate\obj\Debug\Agathas.Storefront.Repository.NHibernate.dll
 D:\Sourcecode\Agathas.Storefront - VS 2010\Agathas.Storefront.Repository.NHibernate\obj\Debug\Agathas.Storefront.Repository.NHibernate.pdb
+D:\GibHub\GibHub\Agathas.Storefront\Agathas.Storefront.Repository.NHibernate\bin\Debug\Agathas.Storefront.Repository.NHibernate.dll
+D:\GibHub\GibHub\Agathas.Storefront\Agathas.Storefront.Repository.NHibernate\bin\Debug\Agathas.Storefront.Repository.NHibernate.pdb
+D:\GibHub\GibHub\Agathas.Storefront\Agathas.Storefront.Repository.NHibernate\bin\Debug\Agathas.Storefront.Infrastructure.dll
+D:\GibHub\GibHub\Agathas.Storefront\Agathas.Storefront.Repository.NHibernate\bin\Debug\Agathas.Storefront.Model.dll
+D:\GibHub\GibHub\Agathas.Storefront\Agathas.Storefront.Repository.NHibernate\bin\Debug\Iesi.Collections.dll
+D:\GibHub\GibHub\Agathas.Storefront\Agathas.Storefront.Repository.NHibernate\bin\Debug\LinFu.DynamicProxy.dll
+D:\GibHub\GibHub\Agathas.Storefront\Agathas.Storefront.Repository.NHibernate\bin\Debug\log4net.dll
+D:\GibHub\GibHub\Agathas.Storefront\Agathas.Storefront.Repository.NHibernate\bin\Debug\NHibernate.ByteCode.LinFu.dll
+D:\GibHub\GibHub\Agathas.Storefront\Agathas.Storefront.Repository.NHibernate\bin\Debug\NHibernate.dll
+D:\GibHub\GibHub\Agathas.Storefront\Agathas.Storefront.Repository.NHibernate\bin\Debug\StructureMap.dll
+D:\GibHub\GibHub\Agathas.Storefront\Agathas.Storefront.Repository.NHibernate\bin\Debug\Agathas.Storefront.Infrastructure.pdb
+D:\GibHub\GibHub\Agathas.Storefront\Agathas.Storefront.Repository.NHibernate\bin\Debug\Agathas.Storefront.Model.pdb
+D:\GibHub\GibHub\Agathas.Storefront\Agathas.Storefront.Repository.NHibernate\obj\Debug\Agathas.Storefront.Repository.NHibernate.csprojResolveAssemblyReference.cache
+D:\GibHub\GibHub\Agathas.Storefront\Agathas.Storefront.Repository.NHibernate\obj\Debug\Agathas.Storefront.Repository.NHibernate.dll
+D:\GibHub\GibHub\Agathas.Storefront\Agathas.Storefront.Repository.NHibernate\obj\Debug\Agathas.Storefront.Repository.NHibernate.pdb

@@ -94,3 +94,17 @@ D:\Books\ProfessionalASPDesignPattern\ASPPatterns.Chap14\Agathas.Storefront - VS
 D:\Books\ProfessionalASPDesignPattern\ASPPatterns.Chap14\Agathas.Storefront - VS 2010\Agathas.Storefront.Controllers\bin\Debug\Agathas.Storefront.Services.pdb
 D:\Books\ProfessionalASPDesignPattern\ASPPatterns.Chap14\Agathas.Storefront - VS 2010\Agathas.Storefront.Controllers\obj\Debug\Agathas.Storefront.Controllers.dll
 D:\Books\ProfessionalASPDesignPattern\ASPPatterns.Chap14\Agathas.Storefront - VS 2010\Agathas.Storefront.Controllers\obj\Debug\Agathas.Storefront.Controllers.pdb
+D:\GibHub\GibHub\Agathas.Storefront\Agathas.Storefront.Controllers\bin\Debug\Agathas.Storefront.Controllers.dll
+D:\GibHub\GibHub\Agathas.Storefront\Agathas.Storefront.Controllers\bin\Debug\Agathas.Storefront.Controllers.pdb
+D:\GibHub\GibHub\Agathas.Storefront\Agathas.Storefront.Controllers\bin\Debug\Agathas.Storefront.Infrastructure.dll
+D:\GibHub\GibHub\Agathas.Storefront\Agathas.Storefront.Controllers\bin\Debug\Agathas.Storefront.Model.dll
+D:\GibHub\GibHub\Agathas.Storefront\Agathas.Storefront.Controllers\bin\Debug\Agathas.Storefront.Services.dll
+D:\GibHub\GibHub\Agathas.Storefront\Agathas.Storefront.Controllers\bin\Debug\AutoMapper.dll
+D:\GibHub\GibHub\Agathas.Storefront\Agathas.Storefront.Controllers\bin\Debug\StructureMap.dll
+D:\GibHub\GibHub\Agathas.Storefront\Agathas.Storefront.Controllers\bin\Debug\log4net.dll
+D:\GibHub\GibHub\Agathas.Storefront\Agathas.Storefront.Controllers\bin\Debug\Agathas.Storefront.Infrastructure.pdb
+D:\GibHub\GibHub\Agathas.Storefront\Agathas.Storefront.Controllers\bin\Debug\Agathas.Storefront.Model.pdb
+D:\GibHub\GibHub\Agathas.Storefront\Agathas.Storefront.Controllers\bin\Debug\Agathas.Storefront.Services.pdb
+D:\GibHub\GibHub\Agathas.Storefront\Agathas.Storefront.Controllers\obj\Debug\Agathas.Storefront.Controllers.csprojResolveAssemblyReference.cache
+D:\GibHub\GibHub\Agathas.Storefront\Agathas.Storefront.Controllers\obj\Debug\Agathas.Storefront.Controllers.dll
+D:\GibHub\GibHub\Agathas.Storefront\Agathas.Storefront.Controllers\obj\Debug\Agathas.Storefront.Controllers.pdb
