@@ -129,3 +129,20 @@ D:\GibHub\GibHub\Agathas.Storefront\Agathas.Storefront.Repository.NHibernate\bin
 D:\GibHub\GibHub\Agathas.Storefront\Agathas.Storefront.Repository.NHibernate\obj\Debug\Agathas.Storefront.Repository.NHibernate.csprojResolveAssemblyReference.cache
 D:\GibHub\GibHub\Agathas.Storefront\Agathas.Storefront.Repository.NHibernate\obj\Debug\Agathas.Storefront.Repository.NHibernate.dll
 D:\GibHub\GibHub\Agathas.Storefront\Agathas.Storefront.Repository.NHibernate\obj\Debug\Agathas.Storefront.Repository.NHibernate.pdb
+D:\GitHub\Agathas.Storefront - VS 2010\Agathas.Storefront.Repository.NHibernate\obj\Debug\Agathas.Storefront.Repository.NHibernate.csprojResolveAssemblyReference.cache
+D:\GitHub\Agathas.Storefront - VS 2010\Agathas.Storefront.Repository.NHibernate\bin\Debug\Agathas.Storefront.Repository.NHibernate.dll
+D:\GitHub\Agathas.Storefront - VS 2010\Agathas.Storefront.Repository.NHibernate\bin\Debug\Agathas.Storefront.Repository.NHibernate.pdb
+D:\GitHub\Agathas.Storefront - VS 2010\Agathas.Storefront.Repository.NHibernate\bin\Debug\Agathas.Storefront.Infrastructure.dll
+D:\GitHub\Agathas.Storefront - VS 2010\Agathas.Storefront.Repository.NHibernate\bin\Debug\Agathas.Storefront.Model.dll
+D:\GitHub\Agathas.Storefront - VS 2010\Agathas.Storefront.Repository.NHibernate\bin\Debug\Iesi.Collections.dll
+D:\GitHub\Agathas.Storefront - VS 2010\Agathas.Storefront.Repository.NHibernate\bin\Debug\LinFu.DynamicProxy.dll
+D:\GitHub\Agathas.Storefront - VS 2010\Agathas.Storefront.Repository.NHibernate\bin\Debug\log4net.dll
+D:\GitHub\Agathas.Storefront - VS 2010\Agathas.Storefront.Repository.NHibernate\bin\Debug\NHibernate.ByteCode.LinFu.dll
+D:\GitHub\Agathas.Storefront - VS 2010\Agathas.Storefront.Repository.NHibernate\bin\Debug\NHibernate.dll
+D:\GitHub\Agathas.Storefront - VS 2010\Agathas.Storefront.Repository.NHibernate\bin\Debug\EntityFramework.dll
+D:\GitHub\Agathas.Storefront - VS 2010\Agathas.Storefront.Repository.NHibernate\bin\Debug\StructureMap.dll
+D:\GitHub\Agathas.Storefront - VS 2010\Agathas.Storefront.Repository.NHibernate\bin\Debug\Agathas.Storefront.Infrastructure.pdb
+D:\GitHub\Agathas.Storefront - VS 2010\Agathas.Storefront.Repository.NHibernate\bin\Debug\Agathas.Storefront.Model.pdb
+D:\GitHub\Agathas.Storefront - VS 2010\Agathas.Storefront.Repository.NHibernate\bin\Debug\EntityFramework.xml
+D:\GitHub\Agathas.Storefront - VS 2010\Agathas.Storefront.Repository.NHibernate\obj\Debug\Agathas.Storefront.Repository.NHibernate.dll
+D:\GitHub\Agathas.Storefront - VS 2010\Agathas.Storefront.Repository.NHibernate\obj\Debug\Agathas.Storefront.Repository.NHibernate.pdb

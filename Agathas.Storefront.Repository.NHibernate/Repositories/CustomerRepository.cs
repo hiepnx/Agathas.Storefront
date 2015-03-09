@@ -23,7 +23,7 @@ namespace Agathas.Storefront.Repository.NHibernate.Repositories
                      .CreateCriteria(typeof(Customer))
                      .Add(Expression.Eq(PropertyNameHelper
                      .ResolvePropertyName<Customer>
-                    (c => c.IdentityToken), identityToken));
+                    (c => c.AuthenticationToken), identityToken));
 
             IList<Customer> customers = criteriaQuery.List<Customer>();
 

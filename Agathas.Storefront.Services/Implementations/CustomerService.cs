@@ -28,7 +28,7 @@ namespace Agathas.Storefront.Services.Implementations
         {
             CreateCustomerResponse response = new CreateCustomerResponse();
             Customer customer = new Customer();
-            customer.IdentityToken = request.CustomerIdentityToken;
+            customer.AuthenticationToken = request.CustomerIdentityToken;
             customer.Email = request.Email;
             customer.FirstName = request.FirstName;
             customer.SecondName = request.SecondName;

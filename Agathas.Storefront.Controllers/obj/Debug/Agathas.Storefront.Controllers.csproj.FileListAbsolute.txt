@@ -108,3 +108,22 @@ D:\GibHub\GibHub\Agathas.Storefront\Agathas.Storefront.Controllers\bin\Debug\Aga
 D:\GibHub\GibHub\Agathas.Storefront\Agathas.Storefront.Controllers\obj\Debug\Agathas.Storefront.Controllers.csprojResolveAssemblyReference.cache
 D:\GibHub\GibHub\Agathas.Storefront\Agathas.Storefront.Controllers\obj\Debug\Agathas.Storefront.Controllers.dll
 D:\GibHub\GibHub\Agathas.Storefront\Agathas.Storefront.Controllers\obj\Debug\Agathas.Storefront.Controllers.pdb
+D:\GitHub\Agathas.Storefront - VS 2010\Agathas.Storefront.Controllers\bin\Debug\Agathas.Storefront.Controllers.dll.config
+D:\GitHub\Agathas.Storefront - VS 2010\Agathas.Storefront.Controllers\bin\Debug\Agathas.Storefront.Controllers.dll
+D:\GitHub\Agathas.Storefront - VS 2010\Agathas.Storefront.Controllers\bin\Debug\Agathas.Storefront.Controllers.pdb
+D:\GitHub\Agathas.Storefront - VS 2010\Agathas.Storefront.Controllers\bin\Debug\Agathas.Storefront.Infrastructure.dll
+D:\GitHub\Agathas.Storefront - VS 2010\Agathas.Storefront.Controllers\bin\Debug\Agathas.Storefront.Model.dll
+D:\GitHub\Agathas.Storefront - VS 2010\Agathas.Storefront.Controllers\bin\Debug\Agathas.Storefront.Services.dll
+D:\GitHub\Agathas.Storefront - VS 2010\Agathas.Storefront.Controllers\bin\Debug\AutoMapper.dll
+D:\GitHub\Agathas.Storefront - VS 2010\Agathas.Storefront.Controllers\bin\Debug\EntityFramework.dll
+D:\GitHub\Agathas.Storefront - VS 2010\Agathas.Storefront.Controllers\bin\Debug\EntityFramework.SqlServer.dll
+D:\GitHub\Agathas.Storefront - VS 2010\Agathas.Storefront.Controllers\bin\Debug\StructureMap.dll
+D:\GitHub\Agathas.Storefront - VS 2010\Agathas.Storefront.Controllers\bin\Debug\log4net.dll
+D:\GitHub\Agathas.Storefront - VS 2010\Agathas.Storefront.Controllers\bin\Debug\Agathas.Storefront.Infrastructure.pdb
+D:\GitHub\Agathas.Storefront - VS 2010\Agathas.Storefront.Controllers\bin\Debug\Agathas.Storefront.Model.pdb
+D:\GitHub\Agathas.Storefront - VS 2010\Agathas.Storefront.Controllers\bin\Debug\Agathas.Storefront.Services.pdb
+D:\GitHub\Agathas.Storefront - VS 2010\Agathas.Storefront.Controllers\bin\Debug\EntityFramework.xml
+D:\GitHub\Agathas.Storefront - VS 2010\Agathas.Storefront.Controllers\bin\Debug\EntityFramework.SqlServer.xml
+D:\GitHub\Agathas.Storefront - VS 2010\Agathas.Storefront.Controllers\obj\Debug\Agathas.Storefront.Controllers.csprojResolveAssemblyReference.cache
+D:\GitHub\Agathas.Storefront - VS 2010\Agathas.Storefront.Controllers\obj\Debug\Agathas.Storefront.Controllers.dll
+D:\GitHub\Agathas.Storefront - VS 2010\Agathas.Storefront.Controllers\obj\Debug\Agathas.Storefront.Controllers.pdb
