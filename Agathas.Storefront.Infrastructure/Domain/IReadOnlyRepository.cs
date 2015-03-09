@@ -182,7 +182,7 @@ namespace Agathas.Storefront.Infrastructure.Domain
         /// Gets the unit of work.
         /// </summary>
         /// <value>The unit of work.</value>
-        IUnitOfWork UnitOfWork { get; }
+        IEFUnitOfWork UnitOfWork { get; }
         #endregion
     }
 }

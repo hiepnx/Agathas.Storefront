@@ -40,3 +40,22 @@ D:\GibHub\GibHub\Agathas.Storefront\Agathas.Storefront.Services.Cache\bin\Debug\
 D:\GibHub\GibHub\Agathas.Storefront\Agathas.Storefront.Services.Cache\obj\Debug\Agathas.Storefront.Services.Cache.csprojResolveAssemblyReference.cache
 D:\GibHub\GibHub\Agathas.Storefront\Agathas.Storefront.Services.Cache\obj\Debug\Agathas.Storefront.Services.Cache.dll
 D:\GibHub\GibHub\Agathas.Storefront\Agathas.Storefront.Services.Cache\obj\Debug\Agathas.Storefront.Services.Cache.pdb
+D:\GitHub\Agathas.Storefront - VS 2010\Agathas.Storefront.Services.Cache\bin\Debug\Agathas.Storefront.Services.Cache.dll
+D:\GitHub\Agathas.Storefront - VS 2010\Agathas.Storefront.Services.Cache\bin\Debug\Agathas.Storefront.Services.Cache.pdb
+D:\GitHub\Agathas.Storefront - VS 2010\Agathas.Storefront.Services.Cache\bin\Debug\Agathas.Storefront.Infrastructure.dll
+D:\GitHub\Agathas.Storefront - VS 2010\Agathas.Storefront.Services.Cache\bin\Debug\Agathas.Storefront.Model.dll
+D:\GitHub\Agathas.Storefront - VS 2010\Agathas.Storefront.Services.Cache\bin\Debug\Agathas.Storefront.Services.dll
+D:\GitHub\Agathas.Storefront - VS 2010\Agathas.Storefront.Services.Cache\bin\Debug\EntityFramework.dll
+D:\GitHub\Agathas.Storefront - VS 2010\Agathas.Storefront.Services.Cache\bin\Debug\log4net.dll
+D:\GitHub\Agathas.Storefront - VS 2010\Agathas.Storefront.Services.Cache\bin\Debug\StructureMap.dll
+D:\GitHub\Agathas.Storefront - VS 2010\Agathas.Storefront.Services.Cache\bin\Debug\AutoMapper.dll
+D:\GitHub\Agathas.Storefront - VS 2010\Agathas.Storefront.Services.Cache\bin\Debug\Agathas.Storefront.Infrastructure.pdb
+D:\GitHub\Agathas.Storefront - VS 2010\Agathas.Storefront.Services.Cache\bin\Debug\Agathas.Storefront.Model.pdb
+D:\GitHub\Agathas.Storefront - VS 2010\Agathas.Storefront.Services.Cache\bin\Debug\Agathas.Storefront.Services.pdb
+D:\GitHub\Agathas.Storefront - VS 2010\Agathas.Storefront.Services.Cache\bin\Debug\EntityFramework.xml
+D:\GitHub\Agathas.Storefront - VS 2010\Agathas.Storefront.Services.Cache\obj\Debug\Agathas.Storefront.Services.Cache.csprojResolveAssemblyReference.cache
+D:\GitHub\Agathas.Storefront - VS 2010\Agathas.Storefront.Services.Cache\obj\Debug\Agathas.Storefront.Services.Cache.dll
+D:\GitHub\Agathas.Storefront - VS 2010\Agathas.Storefront.Services.Cache\obj\Debug\Agathas.Storefront.Services.Cache.pdb
+D:\GitHub\Agathas.Storefront - VS 2010\Agathas.Storefront.Services.Cache\bin\Debug\Agathas.Storefront.Services.Cache.dll.config
+D:\GitHub\Agathas.Storefront - VS 2010\Agathas.Storefront.Services.Cache\bin\Debug\EntityFramework.SqlServer.dll
+D:\GitHub\Agathas.Storefront - VS 2010\Agathas.Storefront.Services.Cache\bin\Debug\EntityFramework.SqlServer.xml

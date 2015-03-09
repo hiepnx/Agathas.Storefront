@@ -12,7 +12,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Agathas.Storefront.UI.Web.MVC</RootNamespace>
     <AssemblyName>Agathas.Storefront.UI.Web.MVC</AssemblyName>
-    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <MvcBuildViews>false</MvcBuildViews>
     <FileUpgradeFlags>
     </FileUpgradeFlags>
@@ -35,6 +35,7 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -44,8 +45,15 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="EntityFramework">
+      <HintPath>..\packages\EntityFramework.6.1.2\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer">
+      <HintPath>..\packages\EntityFramework.6.1.2\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
     <Reference Include="StructureMap, Version=2.5.3.0, Culture=neutral, PublicKeyToken=e60ad81abae3c223, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\Lib\StructureMap.dll</HintPath>
@@ -56,11 +64,11 @@
     <Reference Include="System.Web.ApplicationServices" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
-    <Reference Include="System.Web.Extensions" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Web" />
     <Reference Include="System.Web.Abstractions" />
-    <Reference Include="System.Web.Mvc, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Mvc, Version=4.0.0.1, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
     <Reference Include="System.Web.Routing" />
     <Reference Include="System.Web.WebPages, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
     <Reference Include="System.Xml" />
@@ -134,9 +142,9 @@
       <Project>{A909922F-F7DA-4EE6-9B36-04E3B3CA1360}</Project>
       <Name>Agathas.Storefront.Model</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Agathas.Storefront.Repository.NHibernate\Agathas.Storefront.Repository.NHibernate.csproj">
-      <Project>{FB7B4FBD-BCC8-4734-A796-48CE0D674CE7}</Project>
-      <Name>Agathas.Storefront.Repository.NHibernate</Name>
+    <ProjectReference Include="..\Agathas.Storefront.Repository.EntityFramework\Agathas.Storefront.Repository.EntityFramework.csproj">
+      <Project>{2def68a0-b743-41bd-9d7f-edcf28352c4d}</Project>
+      <Name>Agathas.Storefront.Repository.EntityFramework</Name>
     </ProjectReference>
     <ProjectReference Include="..\Agathas.Storefront.Services.Cache\Agathas.Storefront.Services.Cache.csproj">
       <Project>{C171D12F-1596-4D77-B2F2-3B96B4FB6ECD}</Project>
@@ -194,6 +202,9 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Content\Images\Products\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="packages.config" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

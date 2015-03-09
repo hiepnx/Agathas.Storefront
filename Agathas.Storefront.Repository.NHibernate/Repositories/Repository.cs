@@ -179,11 +179,11 @@ namespace Agathas.Storefront.Repository.NHibernate.Repositories
         {
             throw new NotImplementedException("implemented by EF");
         }
-        public IUnitOfWork UnitOfWork
+        public IEFUnitOfWork UnitOfWork
         {
             get
             {
-                return _uow;
+                return null;
             }
         }
         
