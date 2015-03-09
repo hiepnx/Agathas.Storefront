@@ -50,7 +50,8 @@ namespace Agathas.Storefront.Services.Implementations
 
             productQuery.OrderByProperty = new OrderByClause() { Desc = true, PropertyName = PropertyNameHelper.ResolvePropertyName<ProductTitle>(pt => pt.Price) };
 
-            response.Products = _productTitleRepository.FindBy(productQuery, 0, 6).ConvertToProductViews();
+            //response.Products = _productTitleRepository.FindBy(productQuery, 0, 6).ConvertToProductViews();
+            response.Products = _productTitleRepository.FindAll().ConvertToProductViews();
            // response.Products = new List<ProductSummaryView>();
             return response;
         }

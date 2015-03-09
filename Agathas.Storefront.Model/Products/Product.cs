@@ -12,7 +12,7 @@ namespace Agathas.Storefront.Model.Products
 
         public string Name
         {
-            get { return Title.Name; }
+            get { return Title.ProductName; }
         }
 
         public Decimal Price

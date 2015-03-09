@@ -14,3 +14,19 @@ D:\GitHub\Agathas.Storefront - VS 2010\Agathas.Storefront.Repository.EntityFrame
 D:\GitHub\Agathas.Storefront - VS 2010\Agathas.Storefront.Repository.EntityFramework\obj\Debug\Agathas.Storefront.Repository.EntityFramework.csprojResolveAssemblyReference.cache
 D:\GitHub\Agathas.Storefront - VS 2010\Agathas.Storefront.Repository.EntityFramework\obj\Debug\Agathas.Storefront.Repository.EntityFramework.dll
 D:\GitHub\Agathas.Storefront - VS 2010\Agathas.Storefront.Repository.EntityFramework\obj\Debug\Agathas.Storefront.Repository.EntityFramework.pdb
+D:\GibHub\GibHub\Agathas.Storefront\Agathas.Storefront.Repository.EntityFramework\bin\Debug\Agathas.Storefront.Repository.EntityFramework.dll.config
+D:\GibHub\GibHub\Agathas.Storefront\Agathas.Storefront.Repository.EntityFramework\bin\Debug\Agathas.Storefront.Repository.EntityFramework.dll
+D:\GibHub\GibHub\Agathas.Storefront\Agathas.Storefront.Repository.EntityFramework\bin\Debug\Agathas.Storefront.Repository.EntityFramework.pdb
+D:\GibHub\GibHub\Agathas.Storefront\Agathas.Storefront.Repository.EntityFramework\bin\Debug\Agathas.Storefront.Infrastructure.dll
+D:\GibHub\GibHub\Agathas.Storefront\Agathas.Storefront.Repository.EntityFramework\bin\Debug\Agathas.Storefront.Model.dll
+D:\GibHub\GibHub\Agathas.Storefront\Agathas.Storefront.Repository.EntityFramework\bin\Debug\EntityFramework.dll
+D:\GibHub\GibHub\Agathas.Storefront\Agathas.Storefront.Repository.EntityFramework\bin\Debug\EntityFramework.SqlServer.dll
+D:\GibHub\GibHub\Agathas.Storefront\Agathas.Storefront.Repository.EntityFramework\bin\Debug\log4net.dll
+D:\GibHub\GibHub\Agathas.Storefront\Agathas.Storefront.Repository.EntityFramework\bin\Debug\StructureMap.dll
+D:\GibHub\GibHub\Agathas.Storefront\Agathas.Storefront.Repository.EntityFramework\bin\Debug\Agathas.Storefront.Infrastructure.pdb
+D:\GibHub\GibHub\Agathas.Storefront\Agathas.Storefront.Repository.EntityFramework\bin\Debug\Agathas.Storefront.Model.pdb
+D:\GibHub\GibHub\Agathas.Storefront\Agathas.Storefront.Repository.EntityFramework\bin\Debug\EntityFramework.xml
+D:\GibHub\GibHub\Agathas.Storefront\Agathas.Storefront.Repository.EntityFramework\bin\Debug\EntityFramework.SqlServer.xml
+D:\GibHub\GibHub\Agathas.Storefront\Agathas.Storefront.Repository.EntityFramework\obj\Debug\Agathas.Storefront.Repository.EntityFramework.csprojResolveAssemblyReference.cache
+D:\GibHub\GibHub\Agathas.Storefront\Agathas.Storefront.Repository.EntityFramework\obj\Debug\Agathas.Storefront.Repository.EntityFramework.dll
+D:\GibHub\GibHub\Agathas.Storefront\Agathas.Storefront.Repository.EntityFramework\obj\Debug\Agathas.Storefront.Repository.EntityFramework.pdb
