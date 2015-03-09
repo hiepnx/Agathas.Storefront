@@ -6,7 +6,7 @@ using Agathas.Storefront.Infrastructure.Domain;
 
 namespace Agathas.Storefront.Model.Customers
 {
-    public interface ICustomerRepository : INHRepository<Customer, int>
+    public interface ICustomerRepository : IRepository<Customer, int>
     {
         Customer FindBy(string identityToken);
     }

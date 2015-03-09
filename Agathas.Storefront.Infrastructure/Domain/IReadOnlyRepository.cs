@@ -4,7 +4,7 @@ using Agathas.Storefront.Infrastructure.Querying;
 
 namespace Agathas.Storefront.Infrastructure.Domain
 {
-    public interface IEFReadOnlyRepository<T, TId> where T : IAggregateRoot 
+    public interface IReadOnlyRepository<T, TId> where T : IAggregateRoot 
     {
         T FindBy(TId id);
         IEnumerable<T> FindAll();        

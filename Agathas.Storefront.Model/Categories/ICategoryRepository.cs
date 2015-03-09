@@ -6,7 +6,7 @@ using Agathas.Storefront.Infrastructure.Domain;
 
 namespace Agathas.Storefront.Model.Categories
 {
-    public interface ICategoryRepository : INHReadOnlyRepository<Category,int>
+    public interface ICategoryRepository : IReadOnlyRepository<Category,int>
     {
     }
 }

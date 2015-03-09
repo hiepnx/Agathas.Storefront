@@ -77,15 +77,3 @@ D:\Books\ProfessionalASPDesignPattern\ASPPatterns.Chap14\Agathas.Storefront - VS
 D:\Books\ProfessionalASPDesignPattern\ASPPatterns.Chap14\Agathas.Storefront - VS 2010\Agathas.Storefront.Services\obj\Debug\Agathas.Storefront.Services.csprojResolveAssemblyReference.cache
 D:\Books\ProfessionalASPDesignPattern\ASPPatterns.Chap14\Agathas.Storefront - VS 2010\Agathas.Storefront.Services\obj\Debug\Agathas.Storefront.Services.dll
 D:\Books\ProfessionalASPDesignPattern\ASPPatterns.Chap14\Agathas.Storefront - VS 2010\Agathas.Storefront.Services\obj\Debug\Agathas.Storefront.Services.pdb
-D:\GitHub\Agathas.Storefront - VS 2010\Agathas.Storefront.Services\bin\Debug\Agathas.Storefront.Services.dll
-D:\GitHub\Agathas.Storefront - VS 2010\Agathas.Storefront.Services\bin\Debug\Agathas.Storefront.Services.pdb
-D:\GitHub\Agathas.Storefront - VS 2010\Agathas.Storefront.Services\bin\Debug\Agathas.Storefront.Infrastructure.dll
-D:\GitHub\Agathas.Storefront - VS 2010\Agathas.Storefront.Services\bin\Debug\Agathas.Storefront.Model.dll
-D:\GitHub\Agathas.Storefront - VS 2010\Agathas.Storefront.Services\bin\Debug\AutoMapper.dll
-D:\GitHub\Agathas.Storefront - VS 2010\Agathas.Storefront.Services\bin\Debug\log4net.dll
-D:\GitHub\Agathas.Storefront - VS 2010\Agathas.Storefront.Services\bin\Debug\StructureMap.dll
-D:\GitHub\Agathas.Storefront - VS 2010\Agathas.Storefront.Services\bin\Debug\Agathas.Storefront.Infrastructure.pdb
-D:\GitHub\Agathas.Storefront - VS 2010\Agathas.Storefront.Services\bin\Debug\Agathas.Storefront.Model.pdb
-D:\GitHub\Agathas.Storefront - VS 2010\Agathas.Storefront.Services\obj\Debug\Agathas.Storefront.Services.csprojResolveAssemblyReference.cache
-D:\GitHub\Agathas.Storefront - VS 2010\Agathas.Storefront.Services\obj\Debug\Agathas.Storefront.Services.dll
-D:\GitHub\Agathas.Storefront - VS 2010\Agathas.Storefront.Services\obj\Debug\Agathas.Storefront.Services.pdb

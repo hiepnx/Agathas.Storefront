@@ -6,7 +6,7 @@ using Agathas.Storefront.Infrastructure.Domain;
 
 namespace Agathas.Storefront.Model.Products
 {
-    public interface IProductRepository : INHReadOnlyRepository<Product, int>
+    public interface IProductRepository : IReadOnlyRepository<Product, int>
     {
     }
 }
