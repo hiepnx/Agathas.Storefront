@@ -41,3 +41,16 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
+*.suo
+Agathas.Storefront.v11.suo
+*.cache
+*.cache
+*.cache
+*.cache
+*.cache
+*.cache
+*.cache
+Agathas.Storefront.Controllers/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
+Agathas.Storefront.Infrastructure/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
+Agathas.Storefront.Services.Cache/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
+Agathas.Storefront.Controllers/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache

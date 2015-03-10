@@ -59,17 +59,19 @@ namespace Agathas.Storefront.Services.Implementations
         public GetProductsByCategoryResponse GetProductsByCategory(GetProductsByCategoryRequest request)
         {
             GetProductsByCategoryResponse response;
+            
+            //Query productQuery = ProductSearchRequestQueryGenerator.CreateQueryFor(request);
 
-            Query productQuery = ProductSearchRequestQueryGenerator.CreateQueryFor(request);
+            //IEnumerable<Product> productsMatchingRefinement = GetAllProductsMatchingQueryAndSort(request, productQuery);
 
-            IEnumerable<Product> productsMatchingRefinement = GetAllProductsMatchingQueryAndSort(request, productQuery);
+            //response = productsMatchingRefinement.CreateProductSearchResultFrom(request);
 
+            //response.SelectedCategoryName =
+            //    _categoryRepository.FindBy(request.CategoryId).Name;
+            
+            IEnumerable<Product> productsMatchingRefinement =   _productRepository.Find(new Agathas.Storefront.Infrastructure.Specification.Specification<Product>(p=>p.ProductTitle.CategoryId == request.CategoryId));
+            
             response = productsMatchingRefinement.CreateProductSearchResultFrom(request);
-
-            response.SelectedCategoryName =
-                _categoryRepository.FindBy(request.CategoryId).Name;
-
-
             return response;
         }
 

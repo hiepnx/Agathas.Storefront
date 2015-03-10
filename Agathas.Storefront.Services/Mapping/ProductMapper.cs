@@ -12,7 +12,7 @@ namespace Agathas.Storefront.Services.Mapping
         {
             GetProductsByCategoryResponse productSearchResultView = new GetProductsByCategoryResponse();
 
-            IEnumerable<ProductTitle> productsFound = productsMatchingRefinement.Select(p => p.Title).Distinct();
+            IEnumerable<ProductTitle> productsFound = productsMatchingRefinement.Select(p => p.ProductTitle).Distinct();
 
             productSearchResultView.SelectedCategory = request.CategoryId;
 
@@ -20,7 +20,7 @@ namespace Agathas.Storefront.Services.Mapping
 
             productSearchResultView.TotalNumberOfPages = NoOfResultPagesGiven(request.NumberOfResultsPerPage,
                                                                               productSearchResultView.NumberOfTitlesFound);
-
+            
             productSearchResultView.RefinementGroups = GenerateAvailableProductRefinementsFrom(productsFound);
 
             productSearchResultView.Products = CropProductListToSatisfyGivenIndex(request.Index, request.NumberOfResultsPerPage, productsFound);
@@ -51,6 +51,7 @@ namespace Agathas.Storefront.Services.Mapping
 
         private static IList<RefinementGroup> GenerateAvailableProductRefinementsFrom(IEnumerable<ProductTitle> productsFound)
         {
+            
             var brandsRefinementGroup = productsFound.Select(p => p.Brand).Distinct().ToList()
                                        .ConvertAll<IProductAttribute>(b => (IProductAttribute)b).ConvertToRefinementGroup(RefinementGroupings.brand);
             var colorsRefinementGroup = productsFound.Select(p => p.Color).Distinct().ToList()

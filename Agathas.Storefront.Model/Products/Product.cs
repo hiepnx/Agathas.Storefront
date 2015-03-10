@@ -5,36 +5,37 @@ using Agathas.Storefront.Model.Categories;
 namespace Agathas.Storefront.Model.Products
 {
     public class Product : EntityBase<int>, IAggregateRoot
-    {        
+    {
+        public int SizeId { get; set; }
         public ProductSize Size { get; set; }
-
-        public ProductTitle Title { get; set; }
+        public int ProductTitleId { get; set; }
+        public ProductTitle ProductTitle { get; set; }
 
         public string Name
         {
-            get { return Title.ProductName; }
+            get { return ProductTitle.ProductName; }
         }
 
         public Decimal Price
         {
-            get { return Title.Price; }
+            get { return ProductTitle.Price; }
         }
 
         public Brand Brand
         {
-            get { return Title.Brand; }
+            get { return ProductTitle.Brand; }
         }
 
         public ProductColor Color
         {
-            get { return Title.Color; }
+            get { return ProductTitle.Color; }
         }
 
         public Category Category
         {
-            get { return Title.Category; }
+            get { return ProductTitle.Category; }
         }
-
+        
         protected override void Validate()
         {
             throw new NotImplementedException();

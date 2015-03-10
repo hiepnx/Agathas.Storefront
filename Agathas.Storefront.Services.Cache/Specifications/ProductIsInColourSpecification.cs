@@ -16,7 +16,7 @@ namespace Agathas.Storefront.Services.Cache.Specifications
         public bool IsSatisfiedBy(Product product)
         {
             if (_colourIds.Count() > 0)
-                return _colourIds.Any(c => c == product.Title.Color.Id);
+                return _colourIds.Any(c => c == product.ProductTitle.Color.Id);
             
             return true;
         }
