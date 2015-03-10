@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using Agathas.Storefront.Infrastructure.Domain;
-using Agathas.Storefront.Infrastructure.Querying;
 using Agathas.Storefront.Infrastructure.UnitOfWork;
 using Agathas.Storefront.Repository.NHibernate.SessionStorage;
 using NHibernate;

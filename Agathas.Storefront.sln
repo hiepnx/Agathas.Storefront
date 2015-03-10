@@ -7,8 +7,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Agathas.Storefront.Infrastr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Agathas.Storefront.Model", "Agathas.Storefront.Model\Agathas.Storefront.Model.csproj", "{A909922F-F7DA-4EE6-9B36-04E3B3CA1360}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Agathas.Storefront.Repository.NHibernate", "Agathas.Storefront.Repository.NHibernate\Agathas.Storefront.Repository.NHibernate.csproj", "{FB7B4FBD-BCC8-4734-A796-48CE0D674CE7}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Agathas.Storefront.Services", "Agathas.Storefront.Services\Agathas.Storefront.Services.csproj", "{3BEF0A3F-A420-434A-9565-FA7D1CD6A1BC}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Agathas.Storefront.Services.Cache", "Agathas.Storefront.Services.Cache\Agathas.Storefront.Services.Cache.csproj", "{F9D6A24B-6B55-4B5C-AEBA-6C8049CE598C}"
@@ -35,10 +33,6 @@ Global
 		{A909922F-F7DA-4EE6-9B36-04E3B3CA1360}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A909922F-F7DA-4EE6-9B36-04E3B3CA1360}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A909922F-F7DA-4EE6-9B36-04E3B3CA1360}.Release|Any CPU.Build.0 = Release|Any CPU
-		{FB7B4FBD-BCC8-4734-A796-48CE0D674CE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FB7B4FBD-BCC8-4734-A796-48CE0D674CE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FB7B4FBD-BCC8-4734-A796-48CE0D674CE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FB7B4FBD-BCC8-4734-A796-48CE0D674CE7}.Release|Any CPU.Build.0 = Release|Any CPU
 		{3BEF0A3F-A420-434A-9565-FA7D1CD6A1BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{3BEF0A3F-A420-434A-9565-FA7D1CD6A1BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3BEF0A3F-A420-434A-9565-FA7D1CD6A1BC}.Release|Any CPU.ActiveCfg = Release|Any CPU

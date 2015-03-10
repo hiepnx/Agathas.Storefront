@@ -11,13 +11,14 @@ namespace Agathas.Storefront.Services.Mapping
         public static GetProductsByCategoryResponse CreateProductSearchResultFrom(this IEnumerable<Product> productsMatchingRefinement, GetProductsByCategoryRequest request)
         {
             GetProductsByCategoryResponse productSearchResultView = new GetProductsByCategoryResponse();
-
+            var c = productsMatchingRefinement.First().ProductTitle;
             IEnumerable<ProductTitle> productsFound = productsMatchingRefinement.Select(p => p.ProductTitle).Distinct();
 
             productSearchResultView.SelectedCategory = request.CategoryId;
 
             productSearchResultView.NumberOfTitlesFound = productsFound.Count();
-
+            var b = productsMatchingRefinement.ToList();
+            var a = productsFound.ToList();
             productSearchResultView.TotalNumberOfPages = NoOfResultPagesGiven(request.NumberOfResultsPerPage,
                                                                               productSearchResultView.NumberOfTitlesFound);
             

@@ -50,6 +50,10 @@ namespace Agathas.Storefront.Repository.EntityFramework
             //_couriers = CreateDbSet<Courier>();
             //_courierServices = CreateDbSet<ShippingService>();
             //base.ContextOptions.LazyLoadingEnabled = true;
+            this.Configuration.ProxyCreationEnabled = false;
+            this.Configuration.LazyLoadingEnabled = false;
+            
+            
         }
 
         public DbSet<Basket> Baskets

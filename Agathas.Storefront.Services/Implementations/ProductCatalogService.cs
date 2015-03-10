@@ -1,6 +1,5 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
-using Agathas.Storefront.Infrastructure.Querying;
 using Agathas.Storefront.Model.Categories;
 using Agathas.Storefront.Model.Products;
 using Agathas.Storefront.Services.Interfaces;
@@ -25,9 +24,10 @@ namespace Agathas.Storefront.Services.Implementations
             _categoryRepository = categoryRepository;
         }
 
-        private IEnumerable<Product> GetAllProductsMatchingQueryAndSort(GetProductsByCategoryRequest request, Query productQuery)
+        private IEnumerable<Product> GetAllProductsMatchingQueryAndSort(GetProductsByCategoryRequest request)
         {
-            IEnumerable<Product> productsMatchingRefinement = _productRepository.FindBy(productQuery);
+            IEnumerable<Product> productsMatchingRefinement = _productRepository.Find(new Agathas.Storefront.Infrastructure.Specification.Specification<Product>(p=>p.ProductTitle.CategoryId == request.CategoryId));
+           // new Agathas.Storefront.Infrastructure.Specification.Specification<Product>(p=>p.ProductTitle.CategoryId == request.CategoryId));
 
             switch (request.SortBy)
             {
@@ -45,14 +45,8 @@ namespace Agathas.Storefront.Services.Implementations
         public GetFeaturedProductsResponse GetFeaturedProducts()
         {
             GetFeaturedProductsResponse response = new GetFeaturedProductsResponse();
-
-            Query productQuery = new Query();
-
-            productQuery.OrderByProperty = new OrderByClause() { Desc = true, PropertyName = PropertyNameHelper.ResolvePropertyName<ProductTitle>(pt => pt.Price) };
-
-            //response.Products = _productTitleRepository.FindBy(productQuery, 0, 6).ConvertToProductViews();
-            response.Products = _productTitleRepository.FindAll().ConvertToProductViews();
-           // response.Products = new List<ProductSummaryView>();
+            //response.Products = _productTitleRepository.GetQuery(p=>1==1,0,6).ConvertToProductViews();
+            response.Products = _productTitleRepository.Get<int>(x => x.Id, 1, 6).ConvertToProductViews();
             return response;
         }
 

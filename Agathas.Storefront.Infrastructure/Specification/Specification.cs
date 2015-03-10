@@ -3,7 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
 using System.Text;
+using System.Data.Entity;
 using Agathas.Storefront.Infrastructure.Extensions;
+
 
 namespace Agathas.Storefront.Infrastructure.Specification
 {

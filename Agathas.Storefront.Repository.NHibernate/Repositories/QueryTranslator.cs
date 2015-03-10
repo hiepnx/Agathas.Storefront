@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using Agathas.Storefront.Infrastructure.Querying;
 using NHibernate;
 using NHibernate.Criterion;
 

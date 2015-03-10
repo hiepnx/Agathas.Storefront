@@ -136,12 +136,6 @@
     <Compile Include="Payments\PayPalPaymentService.cs" />
     <Compile Include="Payments\TransactionResult.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Querying\CriteriaOperator.cs" />
-    <Compile Include="Querying\Criterion.cs" />
-    <Compile Include="Querying\OrderByClause.cs" />
-    <Compile Include="Querying\PropertyNameHelper.cs" />
-    <Compile Include="Querying\Query.cs" />
-    <Compile Include="Querying\QueryOperator.cs" />
     <Compile Include="Specification\AndSpecification.cs" />
     <Compile Include="Specification\CompositeSpecification.cs" />
     <Compile Include="Specification\ISpecification.cs" />

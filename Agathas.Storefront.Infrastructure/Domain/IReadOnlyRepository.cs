@@ -1,4 +1,4 @@
-﻿using Agathas.Storefront.Infrastructure.Querying;
+﻿
 using Agathas.Storefront.Infrastructure.Specification;
 using Agathas.Storefront.Infrastructure.UnitOfWork;
 using System;
@@ -14,11 +14,6 @@ namespace Agathas.Storefront.Infrastructure.Domain
     {
         T FindBy(TId id);
         IEnumerable<T> FindAll();
-
-        #region implemented by NHibernate
-        IEnumerable<T> FindBy(Query query);
-        IEnumerable<T> FindBy(Query query, int index, int count);
-        #endregion
 
         #region implemented by EntityFramework
         /// <summary>
@@ -52,6 +47,9 @@ namespace Agathas.Storefront.Infrastructure.Domain
         /// <returns></returns>
         IQueryable<T> GetQuery(ISpecification<T> criteria);
 
+        IQueryable<T> GetQuery(Expression<Func<T, bool>> predicate, int from, int count);
+
+        IQueryable<T> GetQuery(ISpecification<T> criteria, int from, int count);
         /// <summary>
         /// Gets one entity based on matching criteria
         /// </summary>

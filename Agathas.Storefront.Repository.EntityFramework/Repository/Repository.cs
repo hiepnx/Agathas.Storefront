@@ -12,7 +12,7 @@ using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 using Agathas.Storefront.Infrastructure.Domain;
-using Agathas.Storefront.Infrastructure.Querying;
+
 using Agathas.Storefront.Infrastructure.Specification;
 using Agathas.Storefront.Repository.EntityFramework.UnitOfWork;
 
@@ -74,6 +74,16 @@ namespace Agathas.Storefront.Repository.EntityFramework.Repository
         public IQueryable<T> GetQuery(ISpecification<T> criteria)
         {
             return criteria.SatisfyingEntitiesFrom(GetQuery());
+        }
+
+        public IQueryable<T> GetQuery(Expression<Func<T, bool>> predicate, int from, int count)
+        {
+            return GetQuery().Where(predicate).Skip(from).Take(count);
+        }
+
+        public IQueryable<T> GetQuery(ISpecification<T> criteria, int from, int count)
+        {
+            return criteria.SatisfyingEntitiesFrom(GetQuery()).Skip(from).Take(count);
         }
 
         public IEnumerable<T> Get<TOrderBy>(Expression<Func<T, TOrderBy>> orderBy, int pageIndex, int pageSize, SortOrder sortOrder = SortOrder.Ascending)
@@ -279,14 +289,7 @@ namespace Agathas.Storefront.Repository.EntityFramework.Repository
         {
             return this.GetAll();
         }
-        public IEnumerable<T> FindBy(Query query)
-        {
-            throw new NotImplementedException("Implemented by NHibernate");
-        }
-        public IEnumerable<T> FindBy(Query query, int index, int count)
-        {
-            throw new NotImplementedException("Implemented by NHibernate");
-        }
+        
         #endregion
     }
 }
