@@ -6,6 +6,10 @@ using Agathas.Storefront.Services.Interfaces;
 using Agathas.Storefront.Services.Mapping;
 using Agathas.Storefront.Services.Messaging.ProductCatalogService;
 using Agathas.Storefront.Services.ViewModels;
+using Agathas.Storefront.Repository.EntityFramework;
+using System;
+using System.Linq.Expressions;
+using Agathas.Storefront.Infrastructure.Specification;
 
 namespace Agathas.Storefront.Services.Implementations
 {
@@ -53,18 +57,18 @@ namespace Agathas.Storefront.Services.Implementations
         public GetProductsByCategoryResponse GetProductsByCategory(GetProductsByCategoryRequest request)
         {
             GetProductsByCategoryResponse response;
+            Specification<Product> spec = new Specification<Product>(p=>p.ProductTitle.CategoryId == request.CategoryId);
+            if ((request.ColorIds != null) && (request.ColorIds.Count() > 0))
+            {
+              spec=  spec.And(new Specification<Product>(q=>request.ColorIds.Contains(q.ProductTitle.ColorId)));
+            }
+            IEnumerable<Product> productsMatchingRefinement = _productRepository.Find(spec);
+            var args = new List<Expression<Func<Product, object>>>();
             
-            //Query productQuery = ProductSearchRequestQueryGenerator.CreateQueryFor(request);
-
-            //IEnumerable<Product> productsMatchingRefinement = GetAllProductsMatchingQueryAndSort(request, productQuery);
-
-            //response = productsMatchingRefinement.CreateProductSearchResultFrom(request);
-
-            //response.SelectedCategoryName =
-            //    _categoryRepository.FindBy(request.CategoryId).Name;
-            
-            IEnumerable<Product> productsMatchingRefinement =   _productRepository.Find(new Agathas.Storefront.Infrastructure.Specification.Specification<Product>(p=>p.ProductTitle.CategoryId == request.CategoryId));
-            
+                args.Add(u => u.ProductTitle.Brand);
+                args.Add(v => v.ProductTitle.Color);
+                args.Add(w => w.Size);
+                productsMatchingRefinement = (productsMatchingRefinement as IQueryable<Product>).GetAllIncluding(args);
             response = productsMatchingRefinement.CreateProductSearchResultFrom(request);
             return response;
         }

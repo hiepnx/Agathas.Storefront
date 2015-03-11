@@ -160,6 +160,10 @@
       <Project>{A909922F-F7DA-4EE6-9B36-04E3B3CA1360}</Project>
       <Name>Agathas.Storefront.Model</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Agathas.Storefront.Repository.EntityFramework\Agathas.Storefront.Repository.EntityFramework.csproj">
+      <Project>{2def68a0-b743-41bd-9d7f-edcf28352c4d}</Project>
+      <Name>Agathas.Storefront.Repository.EntityFramework</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include="Microsoft.Net.Client.3.5">

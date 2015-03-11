@@ -2,8 +2,8 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using Agathas.Storefront.Infrastructure.Domain;
 using Agathas.Storefront.Infrastructure.Logging;
-using Agathas.Storefront.Infrastructure.UnitOfWork;
 using Agathas.Storefront.Model.Basket;
 using Agathas.Storefront.Model.Customers;
 using Agathas.Storefront.Model.Orders;
@@ -48,7 +48,7 @@ namespace Agathas.Storefront.Services.Implementations
 
             _orderRepository.Save(order);
             _basketRepository.Remove(basket);
-            _uow.Commit();
+            _uow.SaveChanges();
 
             response.Order = order.ConvertToOrderView();
 
@@ -70,7 +70,7 @@ namespace Agathas.Storefront.Services.Implementations
                                                  paymentRequest.PaymentMerchant));
 
                 _orderRepository.Save(order);
-                _uow.Commit();
+                _uow.SaveChanges();
             }
             catch (OrderAlreadyPaidForException ex)
             {

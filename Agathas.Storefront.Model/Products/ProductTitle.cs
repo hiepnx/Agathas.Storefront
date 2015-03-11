@@ -15,7 +15,7 @@ namespace Agathas.Storefront.Model.Products
         public int CategoryId { get; set; }
         public Category Category { get; set; }
         public int ColorId { get; set; }
-        public ProductColor Color { get; set; }
+        public Color Color { get; set; }
         public IEnumerable<Product> Products { get; set; }
     }
 

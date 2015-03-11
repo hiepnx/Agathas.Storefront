@@ -11,18 +11,17 @@ namespace Agathas.Storefront.Services.Mapping
         public static GetProductsByCategoryResponse CreateProductSearchResultFrom(this IEnumerable<Product> productsMatchingRefinement, GetProductsByCategoryRequest request)
         {
             GetProductsByCategoryResponse productSearchResultView = new GetProductsByCategoryResponse();
-            var c = productsMatchingRefinement.First().ProductTitle;
+            
             IEnumerable<ProductTitle> productsFound = productsMatchingRefinement.Select(p => p.ProductTitle).Distinct();
 
             productSearchResultView.SelectedCategory = request.CategoryId;
 
             productSearchResultView.NumberOfTitlesFound = productsFound.Count();
-            var b = productsMatchingRefinement.ToList();
-            var a = productsFound.ToList();
+            
             productSearchResultView.TotalNumberOfPages = NoOfResultPagesGiven(request.NumberOfResultsPerPage,
                                                                               productSearchResultView.NumberOfTitlesFound);
             
-            productSearchResultView.RefinementGroups = GenerateAvailableProductRefinementsFrom(productsFound);
+            productSearchResultView.RefinementGroups = GenerateAvailableProductRefinementsFrom(productsFound,productsMatchingRefinement);
 
             productSearchResultView.Products = CropProductListToSatisfyGivenIndex(request.Index, request.NumberOfResultsPerPage, productsFound);
 
@@ -50,17 +49,19 @@ namespace Agathas.Storefront.Services.Mapping
             }
         }
 
-        private static IList<RefinementGroup> GenerateAvailableProductRefinementsFrom(IEnumerable<ProductTitle> productsFound)
+        private static IList<RefinementGroup> GenerateAvailableProductRefinementsFrom(IEnumerable<ProductTitle> productsFound,IEnumerable<Product> products)
         {
             
             var brandsRefinementGroup = productsFound.Select(p => p.Brand).Distinct().ToList()
                                        .ConvertAll<IProductAttribute>(b => (IProductAttribute)b).ConvertToRefinementGroup(RefinementGroupings.brand);
             var colorsRefinementGroup = productsFound.Select(p => p.Color).Distinct().ToList()
                                        .ConvertAll<IProductAttribute>(c => (IProductAttribute)c).ConvertToRefinementGroup(RefinementGroupings.color);
-            var sizesRefinementGroup = (from p in productsFound
-                                        from si in p.Products
-                                        select si.Size).Distinct().ToList()
+            var sizesRefinementGroup = products.Select(p => p.Size).Distinct().ToList()
                                        .ConvertAll<IProductAttribute>(s => (IProductAttribute)s).ConvertToRefinementGroup(RefinementGroupings.size);
+            //var sizesRefinementGroup = (from p in productsFound
+            //                            from si in p.Products
+            //                            select si.Size).Distinct().ToList()
+            //                           .ConvertAll<IProductAttribute>(s => (IProductAttribute)s).ConvertToRefinementGroup(RefinementGroupings.size);
 
             IList<RefinementGroup> refinementGroups = new List<RefinementGroup>();
 

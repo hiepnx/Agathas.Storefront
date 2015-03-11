@@ -10,7 +10,7 @@ namespace Agathas.Storefront.Infrastructure.Domain
     /// <summary>
     /// The UnitOfWork interface.
     /// </summary>
-    public interface IEFUnitOfWork : IDisposable
+    public interface IUnitOfWork : IDisposable
     {
         /// <summary>
         /// Gets a value indicating whether is in transaction.

@@ -14,7 +14,7 @@ using System.Threading.Tasks;
 using Agathas.Storefront.Infrastructure.Domain;
 
 using Agathas.Storefront.Infrastructure.Specification;
-using Agathas.Storefront.Repository.EntityFramework.UnitOfWork;
+
 
 namespace Agathas.Storefront.Repository.EntityFramework.Repository
 {
@@ -90,9 +90,9 @@ namespace Agathas.Storefront.Repository.EntityFramework.Repository
         {
             if (sortOrder == SortOrder.Ascending)
             {
-                return GetQuery().OrderBy(orderBy).Skip((pageIndex - 1) * pageSize).Take(pageSize).AsEnumerable();
+                return GetQuery().OrderBy(orderBy).Skip((pageIndex - 1) * pageSize).Take(pageSize);
             }
-            return GetQuery().OrderByDescending(orderBy).Skip((pageIndex - 1) * pageSize).Take(pageSize).AsEnumerable();
+            return GetQuery().OrderByDescending(orderBy).Skip((pageIndex - 1) * pageSize).Take(pageSize);
         }
 
         public IEnumerable<T> Get<TOrderBy>(Expression<Func<T, bool>> criteria, Expression<Func<T, TOrderBy>> orderBy, int pageIndex, int pageSize, SortOrder sortOrder = SortOrder.Ascending)
@@ -221,7 +221,7 @@ namespace Agathas.Storefront.Repository.EntityFramework.Repository
 
         public IEnumerable<T> Find(ISpecification<T> criteria)
         {
-            return criteria.SatisfyingEntitiesFrom(GetQuery()).AsEnumerable();
+            return criteria.SatisfyingEntitiesFrom(GetQuery());
         }
 
         public int Count() 
@@ -239,13 +239,13 @@ namespace Agathas.Storefront.Repository.EntityFramework.Repository
             return criteria.SatisfyingEntitiesFrom(GetQuery()).Count();
         }
 
-        public IEFUnitOfWork UnitOfWork
+        public IUnitOfWork UnitOfWork
         {
             get
             {
                 if (unitOfWork == null)
                 {
-                    unitOfWork = new EFUnitOfWork(this.DbContext);
+                    unitOfWork = new UnitOfWork.UnitOfWork(this.DbContext);
                 }
                 return unitOfWork;
             }
@@ -277,7 +277,7 @@ namespace Agathas.Storefront.Repository.EntityFramework.Repository
             }
         }       
 
-        private IEFUnitOfWork unitOfWork;
+        private IUnitOfWork unitOfWork;
         
 
         #region implemented by NHibernate

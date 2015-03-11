@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using Agathas.Storefront.Infrastructure.Domain;
-using Agathas.Storefront.Infrastructure.UnitOfWork;
 using Agathas.Storefront.Model.Customers;
 using Agathas.Storefront.Services.Interfaces;
 using Agathas.Storefront.Services.Mapping;
@@ -36,7 +35,7 @@ namespace Agathas.Storefront.Services.Implementations
             ThrowExceptionIfCustomerIsInvalid(customer);
 
             _customerRepository.Add(customer);
-            _uow.Commit();
+            _uow.SaveChanges();
 
             response.Customer = customer.ConvertToCustomerDetailView();
 
@@ -96,7 +95,7 @@ namespace Agathas.Storefront.Services.Implementations
             ThrowExceptionIfCustomerIsInvalid(customer);
 
             _customerRepository.Save(customer);
-            _uow.Commit();
+            _uow.SaveChanges();
 
             response.Customer = customer.ConvertToCustomerDetailView();
 
@@ -121,7 +120,7 @@ namespace Agathas.Storefront.Services.Implementations
                 UpdateDeliveryAddressFrom(request.Address, deliveryAddress);
 
                 _customerRepository.Save(customer);
-                _uow.Commit();
+                _uow.SaveChanges();
             }
 
             response.DeliveryAddress = deliveryAddress
@@ -145,7 +144,7 @@ namespace Agathas.Storefront.Services.Implementations
             customer.AddAddress(deliveryAddress);
 
             _customerRepository.Save(customer);
-            _uow.Commit();
+            _uow.SaveChanges();
 
             response.DeliveryAddress = deliveryAddress
                                          .ConvertToDeliveryAddressView();

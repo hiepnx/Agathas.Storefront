@@ -3,7 +3,7 @@ using Agathas.Storefront.Infrastructure.Domain;
 
 namespace Agathas.Storefront.Model.Products
 {
-    public class ProductSize : EntityBase<int>, IProductAttribute
+    public class Size : EntityBase<int>, IProductAttribute
     {        
         public string Name { get; set; }
 

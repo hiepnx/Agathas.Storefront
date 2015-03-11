@@ -26,8 +26,8 @@ namespace Agathas.Storefront.Repository.EntityFramework
         public DbSet<Order> _orders;
         public DbSet<OrderItem> _orderItems;
         public DbSet<Product> _products;
-        public DbSet<ProductColor> _colors;
-        public DbSet<ProductSize> _sizes;
+        public DbSet<Color> _colors;
+        public DbSet<Size> _sizes;
         public DbSet<ProductTitle> _productTitles;
         public DbSet<Courier> _couriers;
         public DbSet<ShippingService> _courierServices;
@@ -119,14 +119,14 @@ namespace Agathas.Storefront.Repository.EntityFramework
                 return _products;
             }
         }
-        public DbSet<ProductColor> Colors
+        public DbSet<Color> Colors
         {
             get
             {
                 return _colors;
             }
         }
-        public DbSet<ProductSize> Sizes
+        public DbSet<Size> Sizes
         {
             get
             {

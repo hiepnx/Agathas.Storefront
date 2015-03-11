@@ -4,7 +4,7 @@ using Agathas.Storefront.Infrastructure.CookieStorage;
 using Agathas.Storefront.Infrastructure.Domain.Events;
 using Agathas.Storefront.Infrastructure.Logging;
 using Agathas.Storefront.Infrastructure.Payments;
-using Agathas.Storefront.Infrastructure.UnitOfWork;
+using Agathas.Storefront.Infrastructure.Domain;
 using Agathas.Storefront.Infrastructure.Configuration;
 using Agathas.Storefront.Model.Basket;
 using Agathas.Storefront.Model.Categories;
@@ -21,7 +21,9 @@ using StructureMap.Configuration.DSL;
 using Agathas.Storefront.Infrastructure.Email;
 using Agathas.Storefront.Repository.EntityFramework.Repository;
 using Agathas.Storefront.Repository.EntityFramework.UnitOfWork;
-using Agathas.Storefront.Infrastructure.Domain;
+using System.Data.Entity;
+using Agathas.Storefront.Repository.EntityFramework;
+
 
 namespace Agathas.Storefront.UI.Web.MVC
 {
@@ -29,17 +31,19 @@ namespace Agathas.Storefront.UI.Web.MVC
     {
         public static void ConfigureDependencies()
         {
-            ObjectFactory.Initialize(x =>
+            ObjectFactory.Initialize(x =>x.Scan(scan=>
             {
+                
                 x.AddRegistry<ControllerRegistry>();
 
-            });
+            }));
         }
 
         public class ControllerRegistry : Registry
         {
             public ControllerRegistry()
             {
+                ForRequestedType<DbContext>().TheDefault.Is.OfConcreteType<ShopDbContext>();
                 // Repositories 
                 ForRequestedType<IOrderRepository>().TheDefault.Is.OfConcreteType
                          <OrderRepository>();
@@ -56,8 +60,8 @@ namespace Agathas.Storefront.UI.Web.MVC
                          <ProductTitleRepository>();
                 ForRequestedType<IProductRepository>().TheDefault.Is.OfConcreteType
                          <ProductRepository>();
-                ForRequestedType<IEFUnitOfWork>().TheDefault.Is.OfConcreteType
-                         <EFUnitOfWork>();
+                ForRequestedType<IUnitOfWork>().TheDefault.Is.OfConcreteType
+                         <UnitOfWork>();
 
                 // Order Service
                 ForRequestedType<IOrderService>().TheDefault.Is.OfConcreteType

@@ -6,10 +6,10 @@ using Agathas.Storefront.Infrastructure.Domain;
 
 namespace Agathas.Storefront.Infrastructure.UnitOfWork
 {
-    public interface IUnitOfWorkRepository
-    {
-        void PersistCreationOf(IAggregateRoot entity);
-        void PersistUpdateOf(IAggregateRoot entity);
-        void PersistDeletionOf(IAggregateRoot entity);
-    }
+    //public interface IUnitOfWorkRepository
+    //{
+    //    void PersistCreationOf(IAggregateRoot entity);
+    //    void PersistUpdateOf(IAggregateRoot entity);
+    //    void PersistDeletionOf(IAggregateRoot entity);
+    //}
 }

@@ -7,7 +7,7 @@ namespace Agathas.Storefront.Model.Products
     public class Product : EntityBase<int>, IAggregateRoot
     {
         public int SizeId { get; set; }
-        public ProductSize Size { get; set; }
+        public Size Size { get; set; }
         public int ProductTitleId { get; set; }
         public ProductTitle ProductTitle { get; set; }
 
@@ -26,7 +26,7 @@ namespace Agathas.Storefront.Model.Products
             get { return ProductTitle.Brand; }
         }
 
-        public ProductColor Color
+        public Color Color
         {
             get { return ProductTitle.Color; }
         }

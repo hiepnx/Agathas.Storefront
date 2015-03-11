@@ -9,16 +9,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Agathas.Storefront.Infrastructure.Domain;
-using Agathas.Storefront.Infrastructure.UnitOfWork;
 
 namespace Agathas.Storefront.Repository.EntityFramework.UnitOfWork
 {
-   public class EFUnitOfWork:IEFUnitOfWork
+   public class UnitOfWork:IUnitOfWork
     {
         private DbTransaction _transaction;
         private DbContext _dbContext;
 
-        public EFUnitOfWork(DbContext context)
+        public UnitOfWork(DbContext context)
         {
             _dbContext = context;
         }

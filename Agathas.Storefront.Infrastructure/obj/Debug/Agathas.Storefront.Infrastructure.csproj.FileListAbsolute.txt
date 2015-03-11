@@ -43,18 +43,6 @@ D:\Books\ProfessionalASPDesignPattern\ASPPatterns.Chap14\Agathas.Storefront - VS
 D:\Books\ProfessionalASPDesignPattern\ASPPatterns.Chap14\Agathas.Storefront - VS 2010\Agathas.Storefront.Infrastructure\obj\Debug\Agathas.Storefront.Infrastructure.csprojResolveAssemblyReference.cache
 D:\Books\ProfessionalASPDesignPattern\ASPPatterns.Chap14\Agathas.Storefront - VS 2010\Agathas.Storefront.Infrastructure\obj\Debug\Agathas.Storefront.Infrastructure.dll
 D:\Books\ProfessionalASPDesignPattern\ASPPatterns.Chap14\Agathas.Storefront - VS 2010\Agathas.Storefront.Infrastructure\obj\Debug\Agathas.Storefront.Infrastructure.pdb
-D:\GitHub\Agathas.Storefront - VS 2010\Agathas.Storefront.Infrastructure\bin\Debug\Agathas.Storefront.Infrastructure.dll.config
-D:\GitHub\Agathas.Storefront - VS 2010\Agathas.Storefront.Infrastructure\bin\Debug\Agathas.Storefront.Infrastructure.dll
-D:\GitHub\Agathas.Storefront - VS 2010\Agathas.Storefront.Infrastructure\bin\Debug\Agathas.Storefront.Infrastructure.pdb
-D:\GitHub\Agathas.Storefront - VS 2010\Agathas.Storefront.Infrastructure\bin\Debug\EntityFramework.dll
-D:\GitHub\Agathas.Storefront - VS 2010\Agathas.Storefront.Infrastructure\bin\Debug\EntityFramework.SqlServer.dll
-D:\GitHub\Agathas.Storefront - VS 2010\Agathas.Storefront.Infrastructure\bin\Debug\log4net.dll
-D:\GitHub\Agathas.Storefront - VS 2010\Agathas.Storefront.Infrastructure\bin\Debug\StructureMap.dll
-D:\GitHub\Agathas.Storefront - VS 2010\Agathas.Storefront.Infrastructure\bin\Debug\EntityFramework.xml
-D:\GitHub\Agathas.Storefront - VS 2010\Agathas.Storefront.Infrastructure\bin\Debug\EntityFramework.SqlServer.xml
-D:\GitHub\Agathas.Storefront - VS 2010\Agathas.Storefront.Infrastructure\obj\Debug\Agathas.Storefront.Infrastructure.dll
-D:\GitHub\Agathas.Storefront - VS 2010\Agathas.Storefront.Infrastructure\obj\Debug\Agathas.Storefront.Infrastructure.pdb
-D:\GitHub\Agathas.Storefront - VS 2010\Agathas.Storefront.Infrastructure\obj\Debug\Agathas.Storefront.Infrastructure.csprojResolveAssemblyReference.cache
 D:\GibHub\GibHub\Agathas.Storefront\Agathas.Storefront.Infrastructure\bin\Debug\Agathas.Storefront.Infrastructure.dll.config
 D:\GibHub\GibHub\Agathas.Storefront\Agathas.Storefront.Infrastructure\bin\Debug\Agathas.Storefront.Infrastructure.dll
 D:\GibHub\GibHub\Agathas.Storefront\Agathas.Storefront.Infrastructure\bin\Debug\Agathas.Storefront.Infrastructure.pdb
@@ -67,3 +55,15 @@ D:\GibHub\GibHub\Agathas.Storefront\Agathas.Storefront.Infrastructure\bin\Debug\
 D:\GibHub\GibHub\Agathas.Storefront\Agathas.Storefront.Infrastructure\obj\Debug\Agathas.Storefront.Infrastructure.csprojResolveAssemblyReference.cache
 D:\GibHub\GibHub\Agathas.Storefront\Agathas.Storefront.Infrastructure\obj\Debug\Agathas.Storefront.Infrastructure.dll
 D:\GibHub\GibHub\Agathas.Storefront\Agathas.Storefront.Infrastructure\obj\Debug\Agathas.Storefront.Infrastructure.pdb
+D:\GitHub\Agathas.Storefront - VS 2010\Agathas.Storefront.Infrastructure\bin\Debug\Agathas.Storefront.Infrastructure.dll.config
+D:\GitHub\Agathas.Storefront - VS 2010\Agathas.Storefront.Infrastructure\bin\Debug\Agathas.Storefront.Infrastructure.dll
+D:\GitHub\Agathas.Storefront - VS 2010\Agathas.Storefront.Infrastructure\bin\Debug\Agathas.Storefront.Infrastructure.pdb
+D:\GitHub\Agathas.Storefront - VS 2010\Agathas.Storefront.Infrastructure\bin\Debug\EntityFramework.dll
+D:\GitHub\Agathas.Storefront - VS 2010\Agathas.Storefront.Infrastructure\bin\Debug\EntityFramework.SqlServer.dll
+D:\GitHub\Agathas.Storefront - VS 2010\Agathas.Storefront.Infrastructure\bin\Debug\log4net.dll
+D:\GitHub\Agathas.Storefront - VS 2010\Agathas.Storefront.Infrastructure\bin\Debug\StructureMap.dll
+D:\GitHub\Agathas.Storefront - VS 2010\Agathas.Storefront.Infrastructure\bin\Debug\EntityFramework.xml
+D:\GitHub\Agathas.Storefront - VS 2010\Agathas.Storefront.Infrastructure\bin\Debug\EntityFramework.SqlServer.xml
+D:\GitHub\Agathas.Storefront - VS 2010\Agathas.Storefront.Infrastructure\obj\Debug\Agathas.Storefront.Infrastructure.csprojResolveAssemblyReference.cache
+D:\GitHub\Agathas.Storefront - VS 2010\Agathas.Storefront.Infrastructure\obj\Debug\Agathas.Storefront.Infrastructure.dll
+D:\GitHub\Agathas.Storefront - VS 2010\Agathas.Storefront.Infrastructure\obj\Debug\Agathas.Storefront.Infrastructure.pdb
